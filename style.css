@@ -9,8 +9,28 @@
     font-display: swap;
 }
 
+input:focus {
+    outline: none;
+}
+
 * {
     /* border: 0.5px solid red; */
+}
+
+.text-s {
+    font-size: 1.1rem;
+}
+
+.link-green {
+    color: hsl(92, 20%, 35%);
+}
+
+.text-decoration-deactive {
+    text-decoration: none;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .page {
@@ -34,6 +54,7 @@
 
 .right {
     flex: 1.7;
+    background-color: rgb(233, 233, 233);
 }
 
 .logo-wrapper {
@@ -63,4 +84,79 @@
 
 .photo_credit > a:hover {
     color: rgb(106, 106, 156);
+}
+
+.right {
+    font-family: helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main {
+    padding: 0.8rem 3rem;
+    max-width: 1000px;
+}
+
+.main > p {
+    margin-bottom: 2.5rem;
+}
+
+#form {
+    background-color: white;
+}
+
+.form-row {
+    display: flex;
+    gap: 6rem;
+    margin-bottom: 1.4rem;
+}
+
+.form-component__text {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    display: block;
+}
+
+.form-component__input {
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    width: 250px;
+}
+.form-component__input:focus {
+    box-shadow: 0 0 10px rgb(141, 141, 141);
+    border: 0.5px solid black;
+}
+
+.form-component__input:invalid {
+    border: 1px solid red;
+}
+
+.button {
+    background-color: hsl(92, 20%, 35%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cacaca;
+    border: none;
+    color: aliceblue;
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-bottom: 1.9rem;
+    margin-top: 1rem;
+    padding: 0.7rem 2.9rem;
+}
+
+.button:hover {
+    background-color: hsl(92, 20%, 25%);
+    cursor: pointer;
+}
+
+.login:hover {
+    text-decoration: underline;
+    color: hsl(92, 20%, 25%);
 }
