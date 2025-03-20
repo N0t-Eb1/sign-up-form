@@ -13,10 +13,6 @@ input:focus {
     outline: none;
 }
 
-* {
-    /* border: 0.5px solid red; */
-}
-
 .text-s {
     font-size: 1.1rem;
 }
