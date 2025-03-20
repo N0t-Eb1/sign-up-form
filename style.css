@@ -1,3 +1,5 @@
+@import "./reset.css";
+
 @font-face {
     font-family: "Norse";
     src: url("Norse-Bold.woff2") format("woff2"),
@@ -6,5 +8,3 @@
     font-style: normal;
     font-display: swap;
 }
-
-@import "./reset.css";
